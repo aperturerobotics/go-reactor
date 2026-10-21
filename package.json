@@ -47,12 +47,12 @@
     "release:version:minor": "npm version minor -m \"release: v%s\" --no-git-tag-version",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsrs --noEmit"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@types/node": "^25.0.6",
-    "@typescript/native-preview": "^7.0.0-dev.20260106.1",
+    "tsrs": "0.18.0-ts7.1.0-dev.20260929",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.0.0",
